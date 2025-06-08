@@ -9,7 +9,6 @@ using namespace std;
 	}
 	float dividir(float a, float b) {
 		if(b==0 ) {
-			cout <<"no se puede dividir ";
 		return 0;
 		}
 		else {
@@ -20,7 +19,5 @@ using namespace std;
 		float num1, num2;
 		cin >> num1;
 		cin >> num2;
-		//cout <<suma(num1, num2)<<endl;
 		cout <<resta(num1, num2);
-		//cout <<dividir(num1, num2)<<endl;
 	}
