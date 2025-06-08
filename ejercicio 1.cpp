@@ -28,6 +28,14 @@ int main() {
 	cout << "ingrese la opcion: ";
 	cin >> opcion;
 	
-	cout <<"la suma es: "<<suma(num1, num2)<<endl;
-	cout <<"la division es: "<<division(num1, num2)<<endl;
+	switch (opcion) {
+		case 1:
+				cout <<"la suma es: "<<suma(num1, num2)<<endl;
+		break;
+		case 2:
+				cout <<"la division es: "<<division(num1, num2)<<endl;
+		break;
+		default:
+			cout <<"opcion no valida ";
+	}
 }
