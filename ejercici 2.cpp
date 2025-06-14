@@ -10,3 +10,11 @@ int conciente(int a, int b) {
 	}
 	return c;
 }
+
+int reciduo(int a, int b) {
+	while (a >= b) {
+		a = a-b;
+	}
+	return a;
+}
+
