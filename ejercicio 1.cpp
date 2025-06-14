@@ -1,4 +1,4 @@
-//ejercici 1: funcione sumas y division
+ //ejercici 1: funcione sumas y division
 #include <iostream>
 using namespace std;
 
