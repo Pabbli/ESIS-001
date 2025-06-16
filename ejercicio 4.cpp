@@ -9,3 +9,15 @@ bool perfecto(int n) {
 	}
 	return suma == n;
 }
+
+int main() {
+	int num;
+	cout <<"ingrese un numero: ";
+	cin >>num;
+	if(perfecto(num)) {
+		cout <<"es un numero perfecto: " << endl;
+	} else {
+		cout <<"no es un numero perfecto: " << endl;
+	}
+	return 0;
+}
