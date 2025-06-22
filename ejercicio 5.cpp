@@ -15,6 +15,7 @@ int main() {
 	cin >> num1;
 	cout << "introduce el segundo numero: ";
 	cin >> num2;
+	
 	if(sonAmigos(num1, num2)) {
 	cout << "son numeros amigos: " << num1 << num2 <<endl;
 	} else {
