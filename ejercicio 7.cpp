@@ -14,5 +14,10 @@ int combinatorio(int m, int n) {
 int main() {
 	cout << "ingrese el valor de m: ";
 	cin >> m;
-
+	cout << "ingrese el valor de n: ";
+	cin >> n;
+	
+	if (n > m; m < 0; n < 0) {
+		cout << ""
+	}
 }
