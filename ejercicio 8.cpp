@@ -9,6 +9,9 @@ int MCD(int a, int b) {
 	}
 	return a; 
 }
+int MCM(int a, int b) {
+	return(a*b)/MCD(a, b);  
+}
 
 int main() {
 	int num1, num2;
@@ -19,7 +22,7 @@ int main() {
 	cin >> num2;
 	
 	cout << "maximo comun divisor: "<<MCD(num1, num2)<<endl;
-	cout << "minimo comun multiplo: "<<endl;
+	cout << "minimo comun multiplo: "<<MCM(num1, num2)<<endl;
 	return 0;
 
 	
